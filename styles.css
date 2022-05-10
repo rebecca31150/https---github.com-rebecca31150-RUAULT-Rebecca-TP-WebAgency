@@ -112,6 +112,11 @@ margin-right: 400px;
 .card h2{
     color: #0d415c;
 }
+.card{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .Pourteam   p{
     color: #0d415c;
@@ -133,7 +138,6 @@ margin-right: 400px;
     width: 100%;
     background-color: #3ead87;
     display: flex;
-    
 }
 .textprotfolio{
     width: 1000px;
@@ -169,15 +173,15 @@ margin-right: 400px;
     width: 450px;
     margin-top: 30px;
     margin-bottom: 80px;
-   
 }
+
 
 /*contact*/
 .containercontact{
     width: 100%;
     background-color: #223139;
     display: flex;
-}
+}   
 .textcontact{
     width: 700px;
     position:relative;
@@ -190,28 +194,49 @@ margin-right: 400px;
     color: white;
 }
 .nom{
+    width: 300px;
  height: 30px;
  border-radius: 30px;
+ border: white solid 1px;
  text-align: center;
  margin-bottom: 10px; 
  margin-top: 10px;
 
+
 }
-.prenom{height: 30px;
+.mail{
+width: 300px;
+height: 30px;
 border-radius: 30px;
+border: white solid 1px;
 text-align: center;
 margin-bottom: 10px; 
  
 }
 .message{
     width: 300px;
-    height: 80px;
+    height: 50px;
     border-radius: 10px;
     text-align:center;
+    padding-top: 30px;
     margin-bottom: 10px;
+    
 }
-
-
+.Formulaire{
+ 
+  margin-left: auto;
+  margin-right: auto;
+}
+.BoutonContact{
+    
+    width: 200px;
+    height: 30px;
+    background: none;
+    border-radius: 30px;
+    border: white solid 2px;
+    text-align: center;
+    color: white;
+}
 
 /*footer*/
 .containerfooter{
